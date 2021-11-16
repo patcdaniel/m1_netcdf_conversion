@@ -21,4 +21,4 @@ df = ds_short['ocean_downwelling_irradiance_10m'].to_pandas()
 print(df.head())
 
 # Write the data to a csv
-df.to_csv("m1_downwelling_std.csv")
+df.to_csv("./data/m1_downwelling_std.csv")
